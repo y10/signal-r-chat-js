@@ -1,0 +1,27 @@
+﻿<button id="chat-button" disabled onclick="return false">
+    <img />
+</button>
+<div id="chat-overlay"></div>
+<div id="chat-widget">
+    <div id="chat-window">
+        <section>
+            <div id="chat-window-header">Send message to your colleagues</div>
+            <button id="chat-window-close">x</button>
+            <div style="clear:both"></div>
+        </section>
+        <section>
+            <label for="chat-recipient-select">Recipient</label>
+            <select id="chat-recipient-select" name="chat-recipient-select"></select>
+        </section>
+        <section>
+            <label for="chat-message-text">Message</label>
+            <textarea type="text" name="chat-message-text" id="chat-message-text"></textarea>
+        </section>
+        <section class="actions">
+            <button id="chat-send-button" onclick="return false">
+                <img />&nbsp;Send
+            </button>
+        </section>
+    </div>
+</div>
+
